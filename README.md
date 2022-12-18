@@ -1,23 +1,23 @@
-# deno-starter
-
-简单的 [deno](https://deno.land/) 项目模板
-
+# deno-make
+    
 <br />
 
 ## Usage
 
-> 注意未加任何权限，请前往 [deno.jsonc](deno.jsonc) 手动添加
-
-### start
+### install
 
 ```shell
-deno task start
+deno install --allow-write -rfn m https://deno.land/x/dmake/mod.ts
 ```
 
-### bundle
+```shell
+deno install --allow-write -rfn m https://deno.land/x/dmake/mod.ts
+```
+
+### daily
 
 ```shell
-deno task bundle
+m
 ```
 
 <br />
